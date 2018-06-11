@@ -5,7 +5,7 @@ services:
        - db
     image: mabenoit/sql-autotune-dashboard:latest
     environment:
-      - ConnectionStrings:Wwi: "Server=db,1434;Database=WideWorldImporters;User Id=SA;Password=Your_password123;"
+      - ConnectionStrings_Wwi: "Server=db,1434;Database=WideWorldImporters;User Id=SA;Password=Your_password123;"
     ports:
       - "80:80"
   db:
